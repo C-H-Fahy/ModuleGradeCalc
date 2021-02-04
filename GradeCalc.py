@@ -1,3 +1,6 @@
+#Copyright 2021 Ciaran Fahy
+#MIT License
+
 def main(grades, maxgrades, weights):
     """Input; 3 lists with weight as multiplier, Returns; grades explained(str)"""
     try:
