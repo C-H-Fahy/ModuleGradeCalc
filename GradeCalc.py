@@ -25,9 +25,9 @@ def weightgrade(grades, weights):
     
     weightedgrade = 0
     for i in range (0, len(grades)):
-        weightgrade = weightedgrade + grades[i] * weights[i]
+        weightedgrade = weightedgrade + grades[i] * weights[i]
 
-    return(weightgrade)
+    return(weightedgrade)
 
 #a = main([16.7, 40.41, 58.65], [20, 50, 80], [0.1, 0.4, 0.5]);
 #print(a)
